@@ -3,8 +3,13 @@ import '../styles/App.css';
 
 const App = () => {
   return (
-    <div id="main"></div>
-  )
+    <div className="App">
+    <header>Bicycle Repair App</header>
+    <form/>
+    <hr></hr>
+    <List/>
+    </div>
+  );
 }
 
 
