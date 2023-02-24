@@ -1,16 +1,17 @@
-import React, {Component, useState} from "react";
-import '../styles/App.css';
+import React from "react";
+import "../styles/App.css";
+import Form from "./Form";
+import List from "./List";
 
-const App = () => {
+function App() {
   return (
     <div className="App">
-    <header>Bicycle Repair App</header>
-    <form/>
-    <hr></hr>
-    <List/>
+      <header>Bicycle Repair App</header>
+      <Form />
+      <hr></hr>
+      <List />
     </div>
   );
 }
-
 
 export default App;
